@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "opencv-mobile-4.8.1-luckfox-pico/include/opencv4",
+                "include",
+                "from_zoo/3rdparty/rknpu2/include",
+                "from_zoo/utils",
+                "from_zoo/3rdparty/librga/include",
+                "from_zoo/3rdparty/stb_image",
+                "from_zoo/3rdparty/jpeg_turbo/include",
+                "from_zoo/3rdparty/allocator/dma"
+            ],
+            "defines": [
+                "RV1106_1103"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
